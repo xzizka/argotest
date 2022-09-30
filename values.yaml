@@ -1,0 +1,9 @@
+docker:
+  server: codenow-ozi-dev01-docker.jfrog.io
+  username: svc_ozi-dev01
+  password: B1YO80ytAjchGTJT4do2
+  email: support@codenow.com
+resourceQuota:
+  cpuLimit: 
+  memoryLimit: 
+  enabled: false
