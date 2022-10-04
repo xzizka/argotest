@@ -12,7 +12,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   name: testrole
-  namespace: test5
+  namespace: {{ .Values.namespace-diff }}
 rules:
 - apiGroups: [""]
   resources: ["pod"]
