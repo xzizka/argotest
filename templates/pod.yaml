@@ -7,7 +7,5 @@ spec:
   containers:
   - image: nginx
     name: nginx
-    securityContext:
-      allowPrivilegeEscalation: true
   serviceAccountName: build-robot
   automountServiceAccountToken: true
