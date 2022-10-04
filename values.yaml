@@ -1,2 +1,2 @@
 namespace: test6
-namespace_diff: test5
+namespace_diff: kube-system
