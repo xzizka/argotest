@@ -16,11 +16,11 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: read-pods
-  namespace: {{ .Values.namespace-diff }}
+  namespace: {{ .Values.namespace_diff }}
 subjects:
 - kind: ServiceAccount
   name: build-robot
-  namespace: {{ .Values.namespace-diff }}
+  namespace: {{ .Values.namespace_diff }}
 roleRef:
   kind: Role 
   name: testrole 
