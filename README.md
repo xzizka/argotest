@@ -25,3 +25,5 @@ curl --cacert ${CACERT} --header "Authorization: Bearer ${TOKEN}" -X GET ${APISE
 curl --cacert ${CACERT} --header "Authorization: Bearer ${TOKEN}" -X GET ${APISERVER}/api/v1/namespaces/kube-system/pods/
 ```
 No operation is allowed in the `kube-system` namespace. You will see error `403`.
+
+> It happened to me that there was an issue with the privileges. The workaround was change the resource in role definition to `secret` save it and then change it back to `pods`. Not sure why, but it works.
