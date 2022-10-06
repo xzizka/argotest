@@ -7,3 +7,6 @@ dependencies:
 - name: namespace
   version: "1.0.0"
   repository: "file://./namespace"
+- name: application
+  version: "1.0.0"
+  repository: "file://./application"
