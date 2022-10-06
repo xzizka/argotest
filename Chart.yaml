@@ -1,7 +1,7 @@
 apiVersion: v1
 appVersion: "1.0"
 description: A Helm chart for Kubernetes
-name: application
+name: deployment
 version: 1.0.0
 dependencies:
 - name: namespace
