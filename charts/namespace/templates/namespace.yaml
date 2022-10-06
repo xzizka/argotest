@@ -4,4 +4,4 @@ metadata:
   name: {{ .Values.namespace }}
   labels:
     istio-injection: enabled
-    argocd-namespace: 1
+    argocd-namespace: "true"
