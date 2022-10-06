@@ -3,10 +3,3 @@ appVersion: "1.0"
 description: A Helm chart for Kubernetes
 name: deployment
 version: 1.0.0
-dependencies:
-- name: namespace
-  version: "1.0.0"
-  repository: "file://./namespace"
-- name: application
-  version: "1.0.0"
-  repository: "file://./application"
