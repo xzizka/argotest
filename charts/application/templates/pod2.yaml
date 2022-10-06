@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: httpd
+  namespace: test6
+spec:
+  containers:
+  - image: httpd
+    name: httpd
+  serviceAccountName: build-robot
+  automountServiceAccountToken: false
