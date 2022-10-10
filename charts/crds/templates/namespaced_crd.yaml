@@ -37,4 +37,4 @@ spec:
     kind: CronTab
     # shortNames allow shorter string to match your resource on the CLI
     shortNames:
-    - ct
+    - crt
