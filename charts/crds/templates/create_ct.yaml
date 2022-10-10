@@ -1,0 +1,8 @@
+apiVersion: "stable.example.com/v1"
+kind: CronTab
+metadata:
+  name: my-new-cron-object
+  namespace: {{ .Values.namespace }}
+spec:
+  cronSpec: "* * * * */5"
+  image: hello-world
