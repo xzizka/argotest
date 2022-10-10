@@ -6,3 +6,12 @@ metadata:
 spec:
   cronSpec: "* * * * */5"
   image: hello-world
+---
+apiVersion: "stable.example.com/v1"
+kind: CronTabExt
+metadata:
+  name: my-new-cron-ext-object
+  namespace: {{ .Values.namespace }}
+spec:
+  cronSpec: "* * * * */4"
+  image: hello-world
