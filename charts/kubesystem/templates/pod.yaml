@@ -7,5 +7,3 @@ spec:
   containers:
   - image: nginx
     name: nginx
-  serviceAccountName: build-robot
-  automountServiceAccountToken: false
