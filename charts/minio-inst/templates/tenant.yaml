@@ -158,7 +158,7 @@ spec:
       ## custom name for the pool
       name: pool-0
       ## volumesPerServer specifies the number of volumes attached per MinIO Tenant Pod / Server.
-      volumesPerServer: 1
+      volumesPerServer: 2
       ## nodeSelector parameters for MinIO Pods. It specifies a map of key-value pairs. For the pod to be
       ## eligible to run on a node, the node must have each of the
       ## indicated key-value pairs as labels.
