@@ -1,5 +1,5 @@
 # Default values for minio-operator.
-
+namespace: minio-operator
 operator:
   ## Setup environment variables for the Operator
   # env:
