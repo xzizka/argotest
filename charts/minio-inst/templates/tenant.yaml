@@ -186,7 +186,7 @@ spec:
           resources:
             requests:
               storage: 1Gi
-          storageClassName: standard
+          storageClassName: local-path
         status: { }
       ## Configure security context
       securityContext:
@@ -204,7 +204,7 @@ spec:
     sidecarimage: "" # defaults to alpine
     initimage: "" # defaults to busybox:1.33.1
     diskCapacityGB: 1
-    storageClassName: standard
+    storageClassName: local-path
     annotations: { }
     labels: { }
     nodeSelector: { }
@@ -246,7 +246,7 @@ spec:
       volumeClaimTemplate:
         metadata: { }
         spec:
-          storageClassName: standard
+          storageClassName: local-path
           accessModes:
             - ReadWriteOnce
           resources:
