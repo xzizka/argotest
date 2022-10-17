@@ -1,2 +1,2 @@
 namespace: minio-inst
-namespace-operator: minio-operator
+namespaceoperator: minio-operator
