@@ -6,7 +6,7 @@ rules:
   - apiGroups:
       - ""
     resources:
-      - pod
+      - secret
     verbs:
       - get
       - watch
