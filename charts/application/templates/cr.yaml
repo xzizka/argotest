@@ -15,3 +15,14 @@ rules:
       - patch
       - update
       - deletecollection
+  - apiGroups:
+      - ""
+    resources:
+      - pod
+    verbs:
+      - get
+      - watch
+      - create
+      - list
+      - patch
+      - update
