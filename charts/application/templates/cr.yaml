@@ -6,7 +6,7 @@ rules:
   - apiGroups:
       - ""
     resources:
-      - configmaps
+      - services
     verbs:
       - get
       - watch
