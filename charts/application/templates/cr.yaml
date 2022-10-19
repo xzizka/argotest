@@ -6,7 +6,18 @@ rules:
   - apiGroups:
       - ""
     resources:
-      - secret
+      - secrets
+    verbs:
+      - get
+      - watch
+      - create
+      - list
+      - patch
+      - update
+  - apiGroups:
+      - ""
+    resources:
+      - pods
     verbs:
       - get
       - watch
